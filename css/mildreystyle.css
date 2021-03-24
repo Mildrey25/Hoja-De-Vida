@@ -1,0 +1,214 @@
+* {
+  margin: 15px;
+  padding: 0;
+  font-family: "Akaya Telivigala", cursive;
+}
+
+body {
+  background-color: #00b4d8;
+}
+
+.header {
+  background-color: #48cae4;
+  height: 7rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+ul {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  margin: auto;
+  text-align: center;
+}
+a:hover {
+  color: white;
+}
+
+a:visited {
+  color: black;
+}
+
+.ovalo {
+  width: 450px;
+  height: 200 px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #caf0f8;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px auto;
+  padding: 3%;
+  float: center;
+  gap: 15rem;
+}
+
+.ovalo > h1 {
+  font-family: "Akaya Telivigala", cursive;
+  color: black;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.nav-block {
+  text-align: left;
+  background-color: transparent;
+  width: 1300px;
+  height: 85px;
+  display: flex;
+  background-position: center center;
+}
+
+.nav-block li {
+  background: #caf0f8;
+  margin-left: 100px;
+  border-radius: 20px;
+}
+
+.nav-button {
+  display: inline-block;
+  margin: 0px;
+}
+
+.nav-button-center-button {
+  padding: 0 20px;
+  display: inline-block;
+}
+
+.block {
+  float: left;
+  width: 33.3%;
+  margin: auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+img.izq {
+  float: left;
+  border-radius: 20px;
+}
+
+img.der {
+  float: right;
+  border-radius: 20px;
+}
+
+.primero {
+  background-color: #caf0f8;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+
+.segundo {
+  background-color: #caf0f8;
+  border-radius: 20px;
+}
+
+.tercero {
+  background-color: #caf0f8;
+  border-radius: 20px;
+}
+
+.cuarto {
+  background-color: #caf0f8;
+  border-radius: 20px;
+}
+
+.quinto {
+  background-color: #caf0f8;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+
+.sexto{
+  background-color: #caf0f8;
+  border-radius: 20px;
+}
+
+.imag {
+  text-align: center;
+}
+
+img.derecha {
+  float: right;
+}
+
+.fila {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.imag1{
+  border-radius: 10px;
+}
+
+.img3 {
+  width: 170px;
+  height: 220px;
+  position: relative;
+  left: 30px;
+  border-radius: 10px;
+}
+
+
+.img4{
+  width: 170px;
+  height: 220px;
+  position: relative;
+  left: 30px;
+  border-radius: 10px;
+}
+
+.titulo {
+  text-align: center;
+}
+
+
+.prim {
+  font-family: "Akaya Telivigala", cursive;
+  color: black;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.textF{
+  text-align: right;
+}
+
+.imag1 {
+  border-radius: 15px;
+}
+
+.imag2{
+position: absolute;
+width: 270px;
+height: 300px;
+left: 20px;
+top: 35px;
+filter: drop-shadow(8px 7px 6px rgba(0, 0, 0, 0.6));
+border-radius: 15px;
+}
+
+.p1 {
+  border-color: #caf0f8;
+  border-width: 3px;
+  border-style: solid;
+}
+
+.texto{
+  width: 100%;
+  display: flex;
+  grid-template-columns: 2;
+}
+
+.texto p{
+  display: flex;
+}
